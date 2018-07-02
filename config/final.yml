@@ -2,7 +2,5 @@
 blobstore:
   provider: s3
   options:
-    region: ap-southeast-2
-    endpoint: https://s3-ap-southeast-2.amazonaws.com
-    bucket_name: dta-filebeat-boshrelease
+    bucket_name: filebeat-bosh-artifacts
 final_name: filebeat
