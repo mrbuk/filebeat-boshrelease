@@ -6,5 +6,5 @@ set -u # report the usage of uninitialized variables
 # $BOSH_INSTALL_TARGET - where you copy/install files to be included in package
 mkdir $BOSH_INSTALL_TARGET/bin
 
-tar xzf filebeat/filebeat-5.2.2-linux-x86_64.tar.gz
-cp filebeat-5.2.2-linux-x86_64/filebeat $BOSH_INSTALL_TARGET/bin
+tar xzf filebeat/filebeat-6.3.0-linux-x86_64.tar.gz
+cp filebeat-6.3.0-linux-x86_64/filebeat $BOSH_INSTALL_TARGET/bin

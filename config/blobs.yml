@@ -2,3 +2,7 @@ filebeat/filebeat-5.2.2-linux-x86_64.tar.gz:
   size: 8444096
   object_id: bc48d8f5-3a9c-45e2-4587-265fe5824e91
   sha: 0f8e2f5f1145051435352b0e6a8b776040ea36e4
+filebeat/filebeat-6.3.0-linux-x86_64.tar.gz:
+  size: 12481131
+  object_id: 813279e9-8e67-46bd-4525-28ae94883c9f
+  sha: a1b01ffb8a36c386274b59f63685e50a8858a902

@@ -1,0 +1,25 @@
+---
+
+releases:
+- name: filebeat
+  version: 0.0.6
+
+addons:
+- name: log-sink
+  jobs:
+  - name: filebeat
+    release: filebeat
+    properties:
+      filebeat:
+        environment: my-env-name
+        configuration: |
+          filebeat.prospectors:
+          - input_type: log
+            paths:
+              - /var/vcap/sys/log/*/*.log
+          output.kafka:
+            hosts: ["localhost:1234"]
+            topic: 'abc'
+            partition.round_robin:
+              reachable_only: false
+            required_acks: 1
